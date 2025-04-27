@@ -141,7 +141,7 @@ const PlagiarismChecker: React.FC<PlagiarismCheckerProps> = ({ className = '' })
                 className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
               />
               <label htmlFor="exclude-small-matches" className="ml-2 text-sm text-gray-700">
-                Exclude small matches (< 1%)
+                Exclude small matches (&lt; 1%)
               </label>
             </div>
             <div className="flex items-center">
