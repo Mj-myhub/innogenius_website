@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";  // Hero.tsx is missing, so we disable it
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
