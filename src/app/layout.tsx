@@ -1,4 +1,7 @@
-import { Metadata } from 'next';
+// src/app/layout.tsx
+import { Metadata } from 'next'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'InnoGenius.ai — AI-powered tools for productivity and creativity',
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'verification_token',
   },
-};
+}
 
 export default function RootLayout({
   children,
@@ -57,7 +60,7 @@ export default function RootLayout({
         {/* Google Analytics */}
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -71,8 +74,12 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        {children}
+        <Header />
+        <main className="flex-grow">{children}</main>
+        <Footer />
       </body>
     </html>
   )
 }
+      
+      
