@@ -5,10 +5,12 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'InnoGenius.ai — AI-powered tools for productivity and creativity',
-  description: 'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
+  description:
+    'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
   openGraph: {
     title: 'InnoGenius.ai — AI-powered tools for productivity and creativity',
-    description: 'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
+    description:
+      'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
     url: 'https://innogenius.ai',
     siteName: 'InnoGenius.ai',
     images: [
@@ -25,7 +27,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'InnoGenius.ai — AI-powered tools for productivity and creativity',
-    description: 'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
+    description:
+      'InnoGenius.ai — AI-powered text humanizer, CV writer, fitness planner, grammar & plagiarism checker.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -81,5 +84,4 @@ export default function RootLayout({
     </html>
   )
 }
-      
-      
+
